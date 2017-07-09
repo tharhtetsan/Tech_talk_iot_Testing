@@ -260,7 +260,7 @@ if(typeof messaging_events !== "undefined")
 
 // recommended to inject access tokens as environmental variables, e.g.
 // const token = process.env.FB_PAGE_ACCESS_TOKEN
-const token = "EAAUm9eeeiJIBAOJMJa0XZA84MsoCAKCl1eD6nEu7ugn9lkznj6llIgLIBX2oUgZBBxxZArEaaNTHSnXk7s9vN2nkb6pPZCgCKNncQUzZB9EHA9yusYeUXuGvr0A9zyPEDgxTo0yUUESvCRozYABMFZAmzOmhXXFVvow0WVrCBQgwZD"
+const token = "EAAbY0jKdIgEBAIk8Qlcluw0MHZA5q4cske2imq5fnUXz6lza2IBR2sj5HMGhDbZAQtRvmA3hvLRfDNzIwk3IhZCQNOgQu2igcAMCYy24aisxBdvqJXbwdRpYT1XaiaUajJbtjuxfPqjyhV08YyBopupUDF5lAd7pNZA0t0b9VQZDZD"
 
 function sendTextMessage(sender, text) {
 	var messageData = { text:text }
