@@ -419,7 +419,7 @@ app.get('/', function (req, res) {
 
 // for facebook verification
 app.get('/webhook/', function (req, res) {
-	if (req.query['hub.verify_token'] === 'tech_talk_iot_testing') {
+	if (req.query['hub.verify_token'] === 'techtalk') {
 		{
       res.send(req.query['hub.challenge'])
   }
